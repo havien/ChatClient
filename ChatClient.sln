@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChatClient", "ChatClient.vcxproj", "{77E48C7F-1F4D-4250-82AF-B2C149F94EC3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{129F3993-AD58-458B-A975-41ABD4E95A29} = {129F3993-AD58-458B-A975-41ABD4E95A29}
+		{12F3FCD4-138A-412C-87A4-E2559ECA381E} = {12F3FCD4-138A-412C-87A4-E2559ECA381E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AuroraUtility", "..\AuroraUtility\AuroraUtility.vcxproj", "{12F3FCD4-138A-412C-87A4-E2559ECA381E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AuroraNetwork", "..\AuroraNetwork\AuroraNetwork.vcxproj", "{129F3993-AD58-458B-A975-41ABD4E95A29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77E48C7F-1F4D-4250-82AF-B2C149F94EC3}.Debug|x64.ActiveCfg = Debug|x64
+		{77E48C7F-1F4D-4250-82AF-B2C149F94EC3}.Debug|x64.Build.0 = Debug|x64
+		{77E48C7F-1F4D-4250-82AF-B2C149F94EC3}.Release|x64.ActiveCfg = Release|x64
+		{77E48C7F-1F4D-4250-82AF-B2C149F94EC3}.Release|x64.Build.0 = Release|x64
+		{12F3FCD4-138A-412C-87A4-E2559ECA381E}.Debug|x64.ActiveCfg = Debug|x64
+		{12F3FCD4-138A-412C-87A4-E2559ECA381E}.Debug|x64.Build.0 = Debug|x64
+		{12F3FCD4-138A-412C-87A4-E2559ECA381E}.Release|x64.ActiveCfg = Release|x64
+		{12F3FCD4-138A-412C-87A4-E2559ECA381E}.Release|x64.Build.0 = Release|x64
+		{129F3993-AD58-458B-A975-41ABD4E95A29}.Debug|x64.ActiveCfg = Debug|x64
+		{129F3993-AD58-458B-A975-41ABD4E95A29}.Debug|x64.Build.0 = Debug|x64
+		{129F3993-AD58-458B-A975-41ABD4E95A29}.Release|x64.ActiveCfg = Release|x64
+		{129F3993-AD58-458B-A975-41ABD4E95A29}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
